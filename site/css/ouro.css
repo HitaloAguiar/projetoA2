@@ -1,0 +1,195 @@
+body {
+    background-image: url("pegaso3.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.titulo-principal1 {
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    text-align: center;
+    color: #FFD700;
+    border-bottom: 3px solid black;
+    font-size: 25px;
+    padding: 13px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-principal2 {
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    clear: both;
+    text-align: center;
+    color: #FFF;
+    border-bottom: 2px solid black;
+    font-size: 19px;
+    padding: 7px;
+    text-transform: uppercase;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+style {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #000000;
+    width: auto;
+    color: #FFF;
+    border-bottom: 3px solid black;
+    font-size: 19px;
+    padding: 13px;
+    display: inline-block;
+}
+
+ul {
+    text-align: center;
+    color: #FFF;
+}
+
+.titulo-secundario {
+    text-align: justify;
+    margin: 0px;
+    font-size: 30px;
+    height: 50px;
+}
+
+.titulo-Inicial {
+    text-transform: uppercase;
+    font-size: 48px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cavaleiro-ouro {
+    font-size: 35px;
+    height: 40px;
+    color: #FFD700;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.descrição {
+    float: right;
+    height: 320px;
+    width: 400px;
+    font-size: 19px;
+    padding: 8px;
+    background-color: #D9E5E3;
+    border: 10px solid gold;
+    box-sizing: border-box;
+    clear: both;
+    transition: 1s;
+}
+
+.descri {
+    float: right;
+    width: 400px;
+    font-size: 19px;
+    height: 300px;
+    padding: 8px;
+    background-color: #D9E5E3;
+    border: 10px solid gold;
+    box-sizing: border-box
+}
+
+.descrição:hover,
+.descri:hover {
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.8);
+    transform: scale(1.2);
+    rotate: (-5deg);
+}
+
+h3 {
+    font-size: 30px;
+    padding: 6px;
+    height: 24px;
+    color: black;
+}
+
+p {
+    font-family: Arial;
+    font-size: 17px;
+    padding: 9px;
+    border: 50px;
+    text-align: justify;
+}
+
+.p1 {
+    font-family: Arial;
+    font-size: 17px;
+    width: 900px;
+    text-align: justify;
+    margin: 5rem;
+    height: 25px;
+}
+
+.p2 {
+    text-align: center;
+    height: 410px
+}
+
+.p3 {
+    font-family: Arial;
+    width: 620px;
+    font-size: 17px;
+    padding: 9px;
+    border: 50px;
+    text-align: justify;
+}
+
+main {
+    background-color: rgb(157, 170, 211);
+    width: 1100px;
+    height: 90%;
+    max-height: 30%;
+    line-height: 120%;
+    margin: 10%;
+    border-bottom: 10px solid transparent;
+    margin: auto;
+    padding: 25px;
+    clear: both;
+}
+
+div {
+    height: 90%;
+    padding: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.rodape-pagina {
+    background-color: rgb(18, 2, 78);
+    color: #F2FFFC;
+    padding: 5px;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.github {
+    background-image: url(../img/github.png);
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
