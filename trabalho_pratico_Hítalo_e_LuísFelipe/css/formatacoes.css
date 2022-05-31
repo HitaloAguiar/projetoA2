@@ -1,0 +1,12 @@
+body {
+    
+    background-attachment: fixed;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
