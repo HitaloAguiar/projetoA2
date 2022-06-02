@@ -15,14 +15,18 @@ h3 {
     background-color: #000000;
     width: 100%;
     position: fixed;
-    left: 0;
-    text-align: center;
+    left: 0;        
+    border-bottom: 3px solid black;    
+    padding: 13px;    
+}
+
+header h1 {
+
     color: rgb(224, 123, 21);
-    border-bottom: 3px solid black;
-    font-size: 25px;
-    padding: 13px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
 }
 
 .titulo-principal2 {
