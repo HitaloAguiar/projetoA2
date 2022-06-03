@@ -38,6 +38,26 @@ h3 {
     color: rgb(224, 123, 21);
 }
 
+#espectros {
+
+    color: rgb(94, 1, 138);
+}
+
+#asgard {
+
+    color: rgb(7, 204, 0);
+}
+
+#marinas {
+
+    color: rgb(255, 147, 7);
+}
+
+#ouro {
+
+    color: #FFD700;
+}
+
 .titulo-principal2 {
     background-color: #000000;
     width: 100%;
@@ -73,4 +93,214 @@ nav {
 ul {
     text-align: center;
     color: #FFF;
+}
+
+.titulo-secundario {
+    text-align: justify;
+    margin: 0px;
+    font-size: 30px;
+    height: 50px;
+}
+
+.titulo-Inicial {
+    text-transform: uppercase;
+    font-size: 48px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cavaleiro-bronze {
+    font-size: 35px;
+    height: 40px;
+    color: rgb(224, 123, 21);
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.cavaleiro-asgard {
+    font-size: 35px;
+    height: 40px;
+    color: rgb(10, 248, 2);
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.cavaleiro-espectro {
+    font-size: 35px;
+    height: 40px;
+    color: rgb(94, 1, 138);
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.cavaleiro-marina {
+    font-size: 35px;
+    height: 40px;
+    color: rgb(255, 147, 7);
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.cavaleiro-ouro {
+    font-size: 35px;
+    height: 40px;
+    color: #FFD700;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.descrição {
+    float: right;
+    height: 320px;
+    width: 400px;
+    font-size: 19px;
+    padding: 8px;
+    background-color: #D9E5E3;
+    border: 10px solid;    
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.descrição1 {
+    float: right;
+    height: 340px;
+    width: 400px;
+    font-size: 19px;
+    padding: 8px;
+    background-color: #D9E5E3;
+    border: 10px solid;
+    border-color: rgb(7, 204, 0);
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.descri {
+    float: right;
+    width: 400px;
+    font-size: 19px;
+    height: 300px;
+    padding: 8px;
+    background-color: #D9E5E3;
+    border: 10px solid gold;
+    box-sizing: border-box
+}
+
+#index2 {
+
+    border-color: rgb(224, 123, 21);
+}
+
+#asgard2 {
+
+    border-color: rgb(7, 204, 0);
+}
+
+#espectros2 {
+
+    border-color: rgb(56, 2, 82);
+}
+
+#marinas2 {
+
+    border-color: rgb(255, 147, 7);
+}
+
+#ouro2 {
+
+    border: 10px solid gold;
+}
+
+.descrição:hover,
+.descrição1:hover,
+.descri:hover {
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.8);
+    transform: scale(1.2);
+    rotate: (-5deg);
+}
+
+h3 {
+    font-size: 30px;
+    padding: 6px;
+    height: 24px;
+    color: black;
+}
+
+p {
+    font-family: Arial;
+    font-size: 17px;
+    padding: 9px;
+    border: 50px;
+    text-align: justify;
+}
+
+.p1 {
+    font-family: Arial;
+    font-size: 17px;
+    width: 900px;
+    text-align: justify;
+    margin: 5rem;
+    height: 25px;
+}
+
+#p1 {
+
+    height: 10px;
+}
+
+.p2 {
+    text-align: center;
+    height: 430px
+}
+
+.p3 {
+    font-family: Arial;
+    width: 620px;
+    font-size: 17px;
+    padding: 9px;
+    border: 50px;
+    text-align: justify;
+}
+
+main {
+    background-color: rgb(157, 170, 211);
+    width: 1100px;
+    height: 90%;
+    max-height: 30%;
+    line-height: 120%;
+    margin: 10%;
+    border-bottom: 10px solid transparent;
+    margin: auto;
+    padding: 25px;
+    clear: both;
+}
+
+div {
+    height: 90%;
+    padding: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.rodape-pagina {
+    background-color: rgb(18, 2, 78);
+    color: #F2FFFC;
+    padding: 5px;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.github {
+    background-image: url(../img/github.png);
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
 }
