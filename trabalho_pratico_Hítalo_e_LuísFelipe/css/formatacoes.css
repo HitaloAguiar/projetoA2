@@ -249,14 +249,39 @@ p {
 }
 
 .p2 {
-    text-align: center;
-    height: 430px
+    text-align: center;    
+}
+
+#indexP2 {
+
+    height: 430px;
+}
+
+#ouroP2 {
+
+    height: 410px;
+}
+
+#asgardP2 {
+
+    height: 470px;
+    transition: 1s;
+}
+
+#marinasP2 {
+
+    height: 510px;
+}
+
+#espectrosP2 {
+
+    height: 460px;
 }
 
 .p3 {
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
     width: 620px;
-    font-size: 17px;
+    font-size: 20px;
     padding: 9px;
     border: 50px;
     text-align: justify;
