@@ -2,7 +2,7 @@ body {
     
     background-attachment: fixed;
     background-size: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden;    
 }
 
 h1,
@@ -235,7 +235,7 @@ p {
 }
 
 .p1 {
-    font-family: Arial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
     width: 900px;
     text-align: justify;
@@ -279,7 +279,7 @@ p {
 }
 
 .p3 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 620px;
     font-size: 20px;
     padding: 9px;
@@ -288,7 +288,7 @@ p {
 }
 
 main {
-    background-color: rgb(157, 170, 211);
+    background-color: rgb(157, 170, 211, 0.6);
     width: 1100px;
     height: 90%;
     max-height: 30%;
@@ -297,7 +297,7 @@ main {
     border-bottom: 10px solid transparent;
     margin: auto;
     padding: 25px;
-    clear: both;
+    clear: both;    
 }
 
 div {
