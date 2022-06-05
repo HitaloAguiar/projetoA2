@@ -1,6 +1,11 @@
-/*var nave = document.querySelector(".titulo-principal2");
-var cabecalho = document.getElementById("cabecalho");
 var corpo = document.getElementById("corpo");
+
+var compt = window.getComputedStyle(corpo);
+
+console.log(compt.getPropertyValue("width"));
+/*
+var nave = document.querySelector(".titulo-principal2");
+var cabecalho = document.getElementById("cabecalho");
 
 var compStylesCorpo = window.getComputedStyle(corpo);
 
