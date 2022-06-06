@@ -3,7 +3,8 @@ body {
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
-    overflow-x: hidden;    
+    overflow-x: hidden;
+    
 }
 
 h1,
@@ -20,7 +21,17 @@ h3 {
     left: 0;        
     border-bottom: 3px solid black; 
     padding: 13px;  
-         
+    z-index: 3;
+}
+
+#carouselExampleIndicators {
+
+    z-index: 2;
+}
+
+a:hover {
+
+    cursor: pointer;
 }
 
 .cabecalho-titulo {
@@ -35,6 +46,11 @@ h3 {
 }
 
 #index {
+
+    color: white;
+}
+
+#Bronze {
 
     color: rgb(224, 123, 21);
 }
@@ -151,6 +167,22 @@ ul {
     text-align: center;
 }
 
+.p1::first-letter {
+
+    font-size: 200%;
+}
+
+#notp1::first-letter {
+
+    font-size: 17px;
+}
+
+#notp1 {
+
+    position: relative;
+    top: 20px;
+}
+
 .descrição {
     float: right;
     height: 320px;
@@ -187,7 +219,12 @@ ul {
     box-sizing: border-box
 }
 
-#index2 {
+.ciclo {
+
+    height: 360px;
+}
+
+#Bronze2 {
 
     border-color: rgb(224, 123, 21);
 }
@@ -244,16 +281,27 @@ p {
     height: 25px;
 }
 
+.p1Espectros {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    width: 900px;
+    text-align: justify;
+    margin: 3rem;
+    margin-top: 1rem;
+    height: 15px;
+}
+
 #p1 {
 
     height: 10px;
 }
 
 .p2 {
-    text-align: center;    
+    text-align: center;
 }
 
-#indexP2 {
+#BronzeP2 {
 
     height: 430px;
 }
@@ -301,6 +349,11 @@ main {
     clear: both;    
 }
 
+.IndexMain {
+
+    margin-bottom: 50px;
+}
+
 div {
     height: 90%;
     padding: 10px;
@@ -330,3 +383,19 @@ strong {
     display: inline-block;
     text-indent: -99999px;
 }
+
+.indexP {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    width: 920px;
+    text-align: justify;
+    margin-left: 4rem;
+    height: 25px;
+}
+
+.indexP::first-letter {
+
+    font-size: 200%;
+}
+
