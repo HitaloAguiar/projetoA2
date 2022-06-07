@@ -512,6 +512,11 @@ footer ul {
     height: 775px;
 }
 
+.CotMain {
+
+    height: 1050px;
+}
+
 .imgs {
 
     height: auto;
@@ -585,3 +590,125 @@ footer ul {
     left: 145px;
 }
 
+legend {
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 0px;
+    font-size: 40px;
+    height: 30px;
+    width: 95%;
+}
+
+.subLegend {
+
+    font-size: 25px;
+}
+
+.legend-principal {
+
+    padding: 0;
+    border-bottom: #000000 solid 1px;
+}
+
+#DadosP {
+
+    width: 95%;
+    height: 175px;
+    position: relative;
+    top: 20px;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+}
+
+label {
+
+    font-size: 19px;
+    position: relative;
+    top: 15px;
+}
+
+input {
+
+    font-size: 15px;
+}
+
+#DadosP input {
+
+    position: relative;
+    top: 15px;
+}
+
+.Genero {
+
+    width: 95%;
+    height: 75px;
+    position: relative;
+    top: 50px;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+}
+
+.G {
+
+    position: relative;
+    top: 10px;
+}
+
+.Cidade {
+
+    width: 95%;
+    height: 115px;
+    position: relative;
+    top: 80px;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+}
+
+.C {
+
+    position: relative;
+    top: 10px;
+}
+
+select {
+
+    position: relative;
+    top: 15px;
+    font-size: 15px;
+}
+
+#msg {
+
+    position: relative;
+    top: 100px;
+}
+
+.motiv {
+
+    width: 95%;
+    height: 200px;
+    position: relative;
+    top: 120px;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+}
+
+.button {
+
+    position: relative;
+    top: 100px;
+    
+}
+
+button {
+
+    color: white;
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    border-left: #000000 solid 5px;
+    border-bottom: #000000 solid 5px;
+    position: relative;
+    top: 35px;
+}

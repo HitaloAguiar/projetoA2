@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img\icon.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/formatacoes.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+        <title>Página do Hítalo e do Luis</title>
+
+        <style type="text/css">
+            <!--
+            a:link {text-decoration: none;color: #fff}
+            a:active {text-decoration: none;}
+            a:visited {text-decoration: none;color: #fff}
+            a:hover {text-decoration: underline;color: #fff}
+            
+        </style>
+
+    </head>
+
+    <body background="img/pegaso3.jpg">
+
+        <header class="titulo-principal1">
+
+            <img src="./img/09997c779523a61bd01bb69b0a789242 (2).jpg" alt="logo da Unitins" class="img-header">
+         
+            <h1 class="cabecalho-titulo" id="index"><strong>Página Inicial</strong></h1>
+      
+                
+            
+            <nav class="titulo-principal2">
+      
+                <ul>
+                    <a href="Index.html"><strong>Página Inicial</strong></a> | <a href="Bronze.html"><strong>Cavaleiros de Bronze</strong> </a> | <a href="Ouro.html"><strong>Cavaleiros de Ouro</strong></a> | <a href="Asgard.html"><strong>Guerreiros Deuses</strong></a> | <a href="Marinas.html"><strong>Generais Marinas</strong></a> | <a href="Espectros.html"><strong>Espectros</strong></a> | <a href="contato.html"><strong>Contate-nos</strong></a>
+                </ul>
+                
+            </nav>
+      
+            
+      
+        </header>
+
+        <br>
+        <br>
+	    <main class="CotMain">
+            <br>
+            <br>
+            <h2 class="titulo-Inicial" ><strong>Formulário de Contato</strong></h2>
+            <div>
+                <form>
+                    <fieldset>
+                        <legend class="legend-principal">Dados Pessoais</legend>
+
+                        <div id="DadosP">
+                        
+                        <label for="nome"><strong>Nome:</strong></label>
+                        <input name="nome" id="nome" placeholder="Insira seu nome" pattern="[A-Za-z]*" autofocus required>
+                        <br>
+                        <br>
+                        
+
+                        <label for="Idade"><strong>Idade:</strong></label>
+                        <input id="Idade" name="Idade" value="Idade" placeholder="Insira sua Idade" type="number" required>
+<br>
+<br>
+                        <label for="Telefone-cell"><strong>Telefone celular:</strong></label>
+                        <input id="Telefone-cell" name="Telefone-cell" placeholder="Insira o número de telefone" pattern="[0-9]{11}">
+<br>
+<br>
+                        <label for="Telefone-fixo"><strong>Telefone fixo:</strong></label>
+                        <input id="Telefone-fixo" name="Telefone-fixo" placeholder="Insira o número de telefone fixo" pattern="[0-9]{11}">
+                        </div>
+                        <fieldset>
+                            
+
+                            <div class="Genero">
+
+                            <legend class="subLegend G">Gênero:</legend>
+            
+                            <label for="Masculino"><input type="radio" id="Masculino" value="Masculino" name="Gênero" required><strong>Masculino</strong></label>
+                            <label for="Feminino"> <input id="Feminino" type="radio" value="Feminino" name="Gênero"><strong>Feminino</strong></label>
+                            <label for="Outro"> <input type="radio" id="Outro" value="Outro" name="Gênero"><strong>Outro</strong></label>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <div class="Cidade">
+                            <legend class="subLegend C">Cidade e Estado:</legend>
+
+                            <label for="cidade"><strong>Cidade:</strong></label>
+                            <select name="cidade">
+                                <option hidden>Selecione uma Cidade</option>
+                                <option value="Ananás">Ananás</option>
+                                <option value="Araguaína">Araguaína</option>
+                                <option value="Belém">Belém</option>
+                                <option value="Goiânia">Goiânia</option>
+                                <option value="Guaraí">Guaraí</option>
+                                <option value="Gurupi">Gurupi</option>
+                                <option value="Palmas">Palmas</option>
+                                <option value="Porto Nacional">Porto Nacional</option>                                                    
+                                
+                                
+                                
+                                
+                            </select>
+                            <br>
+                            <br>
+                            <label for="estado"><strong>Estado:</strong></label>
+                            <select name="estado">
+                                <option hidden>Selecione um Estado</option>
+                                <option value="Goiás">Goiás</option>
+                                <option value="Pará">Pará</option>
+                                <option value="Tocantins">Tocantins</option>
+                                
+                                
+                            </select>
+                        </div>
+                        </fieldset>
+                        
+
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend class="legend-principal" id="msg">Mensagem</legend>
+
+                        <div class="motiv">
+
+                            <label for="motivo"><strong>Motivo do Contato:</strong></label>
+                            <select name="motivo" required>
+                                <option hidden>Selecione o motivo</option>
+                                <option value="Dúvida">Dúvida</option>
+                                <option value="Elogio">Elogio</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                            <br>
+                            <br>
+
+                            <label for="mensagem"><strong>Mensagem:</strong> </label><br><br>
+                            <textarea name="mensagem" cols="60" rows="7" required></textarea>
+                        </div>
+                    </fieldset>
+
+                    <div class="button">
+                        <button type="submit"><strong>Enviar para mim</strong> </button>
+                    </div>
+                </form>
+
+            </div>
+        </main>
+
+        <footer class="rodape-pagina">
+            &copy;Luis Felipe e Hítalo Aguiar
+    
+            <a href="./quemsomos.html">
+                <button class="link-box" type="button">
+                
+                    <p class="link-Text"><strong>Quem Somos</strong></p>                  
+      
+                </button>
+            </a>
+    
+            <ul class="icones-redes-sociais">
+                <li>
+                    <a class="github" href="https://github.com/HitaloAguiar/projetoA2">
+                        Github
+                    </a>
+                </li>
+            </ul>
+    
+            <p class="rodape-text"><a href="https://www.unitins.br/nPortal/sistemas-de-informacao-palmas" title="Ir para página do curso" class="link-rodape">Desenvolvido por Hítalo Aguiar e Luis Felipe<br>na disciplina de Desenvolvimento Front-End<br>00/00/0000</a></p>
+        </footer>
+    
+        <script src="./javaScript/javaScript.js"></script>
+
+    </body>
+</html>
