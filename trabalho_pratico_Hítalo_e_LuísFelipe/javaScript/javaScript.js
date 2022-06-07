@@ -8,9 +8,9 @@ var ano = data.getFullYear();
 
 dataAtual = dia + '/' + mes + '/' + ano;
 
-var rodapeDateIndex = document.getElementById("rodape-text");
+var rodapeDateIndex = document.getElementById("link-rodape");
 
-var rodapeDate = document.getElementsByClassName("rodape-text");
+var rodapeDate = document.getElementsByClassName("link-rodape");
 
 if (rodapeDateIndex != null) {
 
